@@ -58,7 +58,7 @@ var Game = function(config) {
 util.inherits(Game, EventEmitter);
 
 Game.prototype.printBoard = function() {
-  console.log();d
+  console.log();
   for(var i = 0; i < this.board.length; i++) {
     var row = this.board[i];
     console.log(row);
